@@ -1,17 +1,51 @@
 [
   {
-    "task": "Parse an AWS CloudWatch log entry and extract the timestamp, log level, and message using a regular expression",
-    "format": "regex",
-    "solution_criteria": "The regex should correctly capture timestamp in ISO 8601 format, log level (INFO, ERROR, WARN, DEBUG), and the remaining message text from a CloudWatch log line"
+    "prompt_inputs": {
+      "height": "5'11\"",
+      "weight": "165 lbs",
+      "age": "28",
+      "goal": "carbohydrate loading for marathon competition day",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan covers a full day (breakfast, lunch, dinner, snacks) with specific times and portions",
+      "Total daily calories and carbohydrate content align with pre-race fueling needs for a marathon runner",
+      "All meals are practical, easy to digest, and appropriate for competition day timing"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a professional endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading before a competition day"
   },
   {
-    "task": "Write a Python function that takes an AWS S3 bucket name and returns a valid S3 URI in the format 's3://bucket-name'",
-    "format": "python",
-    "solution_criteria": "Function should accept a bucket name string, validate it contains only lowercase letters, numbers, hyphens and dots, and return properly formatted S3 URI or raise an exception for invalid names"
+    "prompt_inputs": {
+      "height": "5'8\"",
+      "weight": "155 lbs",
+      "age": "28",
+      "goal": "maintain weight while supporting muscle recovery",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals and includes snacks appropriate for a rock climber",
+      "Total daily calories are appropriate for weight maintenance (approximately 2,200-2,400 calories)",
+      "Protein content supports muscle recovery with at least 100-120g distributed across meals",
+      "Plan is compact and concise, presented in a single-day format"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a lightweight sport athlete (rock climber) needing balanced nutrition with moderate calories and emphasis on protein for muscle recovery"
   },
   {
-    "task": "Create a JSON object representing an AWS IAM policy that allows read-only access to a specific S3 bucket",
-    "format": "json",
-    "solution_criteria": "JSON should follow AWS IAM policy structure with correct Version, Statement array, Effect, Action (s3:GetObject, s3:ListBucket), and Resource ARN for the specified bucket"
+    "prompt_inputs": {
+      "height": "5'11\"",
+      "weight": "185 lbs",
+      "age": "24",
+      "goal": "maintain current fitness and energy levels during off-season",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan includes 4-5 meals/snacks distributed throughout the day with timing aligned to training session",
+      "Macronutrient distribution supports maintenance goals for a soccer player (adequate protein, carbs for energy, healthy fats)",
+      "Plan is compact and concise, fitting on a single page or brief format"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a team sport athlete (soccer player) during off-season requiring maintenance nutrition with specific meal timing around training sessions"
   }
 ]
