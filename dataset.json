@@ -4,48 +4,50 @@
       "height": "5'11\"",
       "weight": "165 lbs",
       "age": "28",
-      "goal": "carbohydrate loading for marathon competition day",
+      "goal": "endurance performance for marathon training",
       "restrictions": "none"
     },
     "solution_criteria": [
-      "Meal plan covers a full day (breakfast, lunch, dinner, snacks) with specific times and portions",
-      "Total daily calories and carbohydrate content align with pre-race fueling needs for a marathon runner",
-      "All meals are practical, easy to digest, and appropriate for competition day timing"
+      "Meal plan covers all three meals plus snacks for one full day",
+      "Emphasizes complex carbohydrates and includes hydration guidance appropriate for marathon training",
+      "Calorie-dense and realistic for a 165 lb endurance athlete",
+      "Presented in compact, easy-to-read format"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a professional endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading before a competition day"
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring calorie-dense meals with complex carbohydrates and hydration emphasis"
   },
   {
     "prompt_inputs": {
-      "height": "5'8\"",
-      "weight": "155 lbs",
-      "age": "28",
-      "goal": "maintain weight while supporting muscle recovery",
-      "restrictions": "none"
-    },
-    "solution_criteria": [
-      "Meal plan covers all three meals and includes snacks appropriate for a rock climber",
-      "Total daily calories are appropriate for weight maintenance (approximately 2,200-2,400 calories)",
-      "Protein content supports muscle recovery with at least 100-120g distributed across meals",
-      "Plan is compact and concise, presented in a single-day format"
-    ],
-    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a lightweight sport athlete (rock climber) needing balanced nutrition with moderate calories and emphasis on protein for muscle recovery"
-  },
-  {
-    "prompt_inputs": {
-      "height": "5'11\"",
+      "height": "5'10\"",
       "weight": "185 lbs",
-      "age": "24",
-      "goal": "maintain current fitness and energy levels during off-season",
+      "age": "28",
+      "goal": "gain muscle mass",
       "restrictions": "none"
     },
     "solution_criteria": [
-      "Meal plan includes 4-5 meals/snacks distributed throughout the day with timing aligned to training session",
-      "Macronutrient distribution supports maintenance goals for a soccer player (adequate protein, carbs for energy, healthy fats)",
-      "Plan is compact and concise, fitting on a single page or brief format"
+      "Meal plan covers all 4-5 meals/snacks for one full day with specific times",
+      "Each meal includes protein content (minimum 30g per main meal) with macro ratios emphasizing protein for strength athlete",
+      "Pre- and post-workout nutrition strategically timed around training session",
+      "Plan is compact and concise (fits in 1-2 paragraphs or brief format)"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-    "scenario": "Testing with a team sport athlete (soccer player) during off-season requiring maintenance nutrition with specific meal timing around training sessions"
+    "scenario": "Testing with a strength/power athlete (weightlifter) needing protein-focused meals with specific macro ratios and timing around workouts"
+  },
+  {
+    "prompt_inputs": {
+      "height": "5'10\"",
+      "weight": "165 lbs",
+      "age": "24",
+      "goal": "maintain athletic performance",
+      "restrictions": "vegan"
+    },
+    "solution_criteria": [
+      "Meal plan is compact and covers one full day",
+      "All meals and snacks are plant-based with no animal products",
+      "Includes adequate protein sources suitable for soccer performance (minimum 3 servings of legumes, nuts, or plant-based proteins)",
+      "Provides practical, concise meal descriptions without excessive detail"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific dietary restriction scenario (vegan soccer player) requiring plant-based alternatives while maintaining athletic performance nutrition"
   }
 ]
